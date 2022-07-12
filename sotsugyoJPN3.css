@@ -145,7 +145,8 @@ summary:hover {
     transition: linear 0.2s;
 }
 
-.gotop{
+
+.gotop {
     display: block;
     width: 60px;
     height: 60px;
@@ -161,7 +162,7 @@ summary:hover {
     opacity: 0.5;
     position: relative;
 }
-.gotop::before{
+.gotop::before {
     content: "";
     display: block;
     border-top: 2px solid #333;
@@ -175,10 +176,11 @@ summary:hover {
     position: absolute;
     transform: rotate(-45deg);
 }
-.gotop:hover{
+.gotop:hover {
     opacity: 1;
 }
 
+  
 /* フッター */
 footer {
     width: 100%;
