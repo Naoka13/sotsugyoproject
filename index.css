@@ -60,7 +60,7 @@ main {
     padding-top: 30px;
     text-align: center;
     color: white;
-    background-image: url(/IMAGES/header.jpg); 
+    background-image: url(header.jpg); 
     height: 100%;
     width: 100%;
 }
