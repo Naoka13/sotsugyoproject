@@ -1,0 +1,160 @@
+/* 全体書式 */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: serif;
+    background-color: #f4f5f7;
+}
+html{
+    scroll-behavior: smooth;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* ヘッダー */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.5;
+}
+.header-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header-list li {
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+.header-list li:hover {
+    color: #d0d0d0;
+    transition: linear 0.2s;
+}
+.header-list a:hover {
+    color: #d0d0d0;
+    transition: linear 0.3s;
+    text-decoration: solid 1px underline;
+}
+
+/* メイン */
+main {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+.title {
+    padding-top: 60px;
+    text-align: center;
+}
+.contents {
+    padding: 25px;
+    margin: 25px 0px;
+    background-color: white;
+}
+.contents a {
+    color: black;
+}
+.contents a:hover {
+    color: #696969;
+    transition: linear 0.3s;
+}
+.main-text h3 {
+    padding-left: 20px;
+    border-bottom: 1px dotted #696969;
+    font-size: 20px;
+}
+.main-text p {
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+.main-text span {
+    padding-left: 1rem;
+}
+#text-link {
+    font-size: 13px;
+}
+#text-link:hover {
+    text-decoration: underline;
+}
+.clear {
+    clear: left;
+}
+
+/* トップボタン */
+#top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    opacity: 0.3;
+}
+#top-btn:hover {
+    opacity: 1.0;
+    transition: linear 0.2s;
+}
+
+/* フッター */
+footer {
+    width: 100%;
+}
+.footer-logo li {
+    width: 140px;
+    height: 50px;
+    font-size: 15px;
+    line-height: 50px;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    float: right;
+}
+#logo1 {
+    background-color: #239b76;
+}
+#logo2 {
+    background-color: #3b5998;
+    margin-right: 15px;
+}
+footer li:hover {
+    color: #d0d0d0;
+    transition: all linear 0.3s;
+    text-decoration: solid 1px underline;
+}
+
+/* レスポンシブ */
+@media screen and (max-width: 956px) {
+    .title {
+      padding-top: 90px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .title h1 {
+        font-size: 25px;
+    } 
+}
+
+@media screen and (max-width: 600px) {
+    .header-list li {
+      width: 500px;
+    }
+    .title {
+      padding-top: 120px;
+    }
+}
+
+@media screen and (max-width: 416px) {
+    .title {
+      padding-top: 180px;
+    }
+}
