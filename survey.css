@@ -1,0 +1,173 @@
+/* 全体書式 */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: serif;
+    background-color: #f4f5f7;
+}
+html{
+    scroll-behavior: smooth;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+span {
+    padding-left: 1rem;
+}
+
+/* ヘッダー */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.5;
+}
+.header-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header-list li {
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+.header-list li:hover {
+    color: #d0d0d0;
+    transition: linear 0.2s;
+}
+.header-list a:hover {
+    color: #d0d0d0;
+    transition: linear 0.3s;
+    text-decoration: solid 1px underline;
+}
+
+/* メイン */
+main {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+.title {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.contents {
+    padding: 25px;
+    margin: 25px 0px;
+    text-align: center;
+    background-color: white;
+}
+.contents h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+.contents h3 {
+    padding: 25px 25px 0px 25px;
+}
+
+/* トップボタン */
+.gotop {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    left: 15px;
+    bottom: 20px;
+    box-sizing: border-box;
+    background: #FFF;
+    border: 1px solid #999;
+    padding-top: 30px;
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 85%;
+    text-decoration: none;
+    color: #333;
+    opacity: 0.5;
+}
+.gotop::before {
+    content: "";
+    display: block;
+    border-top: 2px solid #333;
+    border-right: 2px solid #333;
+    width: 25%;
+    height: 25%;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    transform: rotate(-45deg);
+}
+.gotop:hover {
+    opacity: 0.5;
+}
+
+/* フッター */
+footer {
+    width: 100%;
+}
+.footer-logo li {
+    width: 140px;
+    height: 50px;
+    font-size: 15px;
+    line-height: 50px;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    float: right;
+}
+#logo1 {
+    background-color: #239b76;
+}
+#logo2 {
+    background-color: #3b5998;
+    margin-right: 15px;
+}
+footer li:hover {
+    color: #d0d0d0;
+    transition: all linear 0.3s;
+    text-decoration: solid 1px underline;
+}
+
+/* レスポンシブ */
+@media screen and (max-width: 956px) {
+    .title {
+      padding-top: 90px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .title h1 {
+        font-size: 25px;
+    } 
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+      padding-top: 120px;
+    }
+    .contents h2 {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .contents h3 {
+        font-size: 12px;
+        font-weight: normal;
+    }
+}
+
+@media screen and (max-width: 416px) {
+    .title {
+      padding-top: 180px;
+    }
+}
