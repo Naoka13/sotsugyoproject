@@ -150,6 +150,9 @@ footer li:hover {
     .title {
       padding-top: 120px;
     }
+    .header-list li {
+        width: 500px;
+    }
 }
 
 @media screen and (max-width: 416px) {
