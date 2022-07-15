@@ -71,11 +71,15 @@ main {
 }
 .title p {
     font-size: 22px;
+    padding: 0px 20px;
 }
 
 .contents {
     margin: 25px 0px;
     padding: 25px 0px;
+}
+.contents p {
+    padding: 0px 20px;
 }
 .contents-expl {
     text-align: center;
