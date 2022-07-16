@@ -277,7 +277,8 @@ footer li:hover {
         bottom: 9px;
       }
     .title {
-      padding-top: 120px;
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
     .contents img {
     width: 100%;
