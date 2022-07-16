@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 body {
+    margin: 0;
     font-family: serif;
     background-color: #f4f5f7;
 }
