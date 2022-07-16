@@ -16,9 +16,6 @@ li {
 a {
     text-decoration: none;
 }
-span {
-    padding-left: 1rem;
-}
 
 /* ヘッダー */
 .header1 {
@@ -81,6 +78,9 @@ main {
 .contents {
     margin: 25px 0px;
     padding: 25px 0px;
+}
+.contents span {
+    padding-left: 1rem;
 }
 .contents p {
     padding: 0px 20px;
