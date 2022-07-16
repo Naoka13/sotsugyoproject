@@ -238,11 +238,13 @@ footer li:hover {
           justify-content: center;
           align-items: center;
         }
+      .header-list2 {
+        display: none;
+      }
         .header-text {
           position: absolute;
-          text-transform: uppercase;
           color: white;
-          letter-spacing: 4px;
+          letter-spacing: 1px;
           font-size: 20px;
           padding-top: 20px;
         } 
@@ -334,6 +336,7 @@ footer li:hover {
       .btn-icon:after {
         bottom: 9px;
       }
+    
     .title {
         padding-top: 80px;
     }
