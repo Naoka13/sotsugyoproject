@@ -59,7 +59,8 @@ main {
     margin: 0 auto;
 }
 .title {
-    padding: 60px 0px 0px 20px;
+    text-align: center;
+    padding-top: 60px;
 }
 
 .contents {
@@ -267,8 +268,8 @@ footer li:hover {
         bottom: 9px;
       }
     .title {
-      padding-top: 50px;
-      padding-bottom: 50px;
+      padding-top: 40px;
+      padding-bottom: 60px;
     }
 }
 
