@@ -328,7 +328,8 @@ footer li:hover {
         width: 100%;
     }
     .title {
-      padding-top: 60px;
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
     .contents-icon {
         width: 100%;
