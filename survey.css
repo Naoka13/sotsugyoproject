@@ -291,6 +291,11 @@ footer li:hover {
         font-size: 12px;
         font-weight: normal;
     }
+    .contents a {
+        font-size: 12px;
+        font-weight: normal;
+        color: #585858;
+    }
 }
 
 @media screen and (max-width: 416px) {
